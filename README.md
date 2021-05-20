@@ -9,7 +9,7 @@ Intended to work under GNU/Linux
 
 0.
 ```bash
-git clone https://github.com/UweKrause/dotfiles.git
+git clone https://github.com/UweKrause/dotfiles.git .  #remember the dot
 ```
 
 1. 
