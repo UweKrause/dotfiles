@@ -1,0 +1,15 @@
+# Manage dotfiles within $HOME
+# based on
+# https://www.reddit.com/r/vim/comments/3cohmv/manage_dotfiles_with_vimplug_and_github/
+
+# Ignore everything
+*
+# But not these files...
+!.gitignore
+!.vimrc
+!.vim
+!.vim/**
+!.setup_dotfiles.sh
+# Ignore the installed plugins
+.vim/plugged/**
+
